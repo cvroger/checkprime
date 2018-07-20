@@ -11,7 +11,7 @@ int main(){
 }
 
 void checkprime(int x){
-    int max = (int)sqrt(x)+2;
+    int max = (int)sqrt(x)+1;
     int i;
     int factor = 0;
     for (i=2; i<=max; i++){
